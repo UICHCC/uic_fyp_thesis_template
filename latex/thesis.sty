@@ -1,3 +1,12 @@
+\titleformat*{\section}{\fontsize{16}{20}\bfseries}
+\titleformat*{\subsection}{\fontsize{14}{20}\bfseries}
+\titleformat*{\subsubsection}{\fontsize{12}{20}\bfseries}
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+\setlength{\parskip}{0em}
+\setlength{\parindent}{0em}
+
 % For Final Version Declare
 \makeatletter
 \newif\ifthesisfinal\thesisfinalfalse
@@ -10,17 +19,16 @@
 \def\enablelogo{\global\enableschoollogotrue}
 % end of final version declare
 
+% Header and Footer
 \makeatletter
 \newcommand\oddhead[1]{\gdef\@oddhead{\reset@font#1}}
 \newcommand\evenhead[1]{\gdef\@evenhead{\reset@font#1}}
 \newcommand\oddfoot[1]{\gdef\@oddfoot{\reset@font#1}}
 \newcommand\evenfoot[1]{\gdef\@evenfoot{\reset@font#1}}
 \makeatother
+% End of Header and Footer
 
 % Redesign maketitle
-\usepackage{datetime}
-\newdateformat{monthyeardate}{
-  \monthname[\THEMONTH], \THEYEAR}
 \makeatletter
 \def\@maketitle{
     \fontsize{16}{20}\selectfont
@@ -107,8 +115,6 @@
 % Not Final Version Header
 \def\confidential{Confidential Review Copy. DO NOT DISTRIBUTE.}
 
-
-
 \bf \oddhead{\hfil\ifthesisfinal\else\confidential\fi\hfil}\evenhead{\hfil\ifthesisfinal\else\confidential\fi\\hfil}
 \par
 % End of Not Final Version Header
@@ -122,7 +128,7 @@
   \end{center}
   \vskip 3em
   \list{}{%
-    \setlength{\leftmargin}{1cm}
+    \setlength{\leftmargin}{0cm}
     \setlength{\rightmargin}{\leftmargin}%
   }%
   \item\relax}
@@ -131,7 +137,6 @@
 % End of abstraction style
 
 % Ack style
-
 \newenvironment{acknowledgement}
   {\small
     \begin{center}
@@ -140,7 +145,6 @@
     \vskip 3em
   }
   {}
-
 
 % End of Ack style
 
@@ -162,11 +166,3 @@
 \makeatother
 \pagestyle{plain}
 % End of Redefine plain style, change Page number position
-
-% Define new page style for different pagg numbering
-\newpagestyle{myStylePage}[\large\sffamily]{%
-  \headrule
-  \sethead{\thechapter. \chaptertitle}{}{\thesection. \sectiontitle}
-  \setfoot{}{\usepage}{}%
-}
-% End of new page style define

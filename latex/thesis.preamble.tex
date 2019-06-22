@@ -1,0 +1,42 @@
+% Included Packages
+\usepackage{times}
+\usepackage{titling}
+\usepackage{bookmark}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage[pdftex]{graphicx}
+\usepackage{tikz}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{setspace}
+\usepackage{tabu}
+\usepackage{tabularx}
+\usepackage{datetime}
+\usepackage{breakcites}
+
+\newdateformat{monthyeardate}{
+    \monthname[\THEMONTH], \THEYEAR
+}
+\captionsetup{font=footnotesize}
+\onehalfspacing
+\geometry{
+    a4paper,
+    top=2.54cm,
+    bottom=2.54cm,
+    left=3.17cm,
+    right=3.17cm,
+}
+\newcommand{\sectionbreak}{\clearpage}
+\usetikzlibrary{shapes,arrows}
+
+\input{thesis.sty}
+
+
+\setlength{\parskip}{\medskipamount}  % a little space before a \par
+\setlength{\parindent}{0pt}	      % don't indent first lines of paragraphs
+
+\input{boxit.sty}

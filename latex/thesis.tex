@@ -1,42 +1,7 @@
 \documentclass[12pt]{article}
 
-% Included Packages
-\usepackage{times}
-\usepackage{titling}
-\usepackage{bookmark}
-\usepackage{hyperref}
-\usepackage{url}
-\usepackage{float}
-\usepackage{caption}
-\captionsetup{font=footnotesize}
-\usepackage{amsmath}
-\usepackage[pdftex]{graphicx}
-\usepackage{tikz}
-\usetikzlibrary{shapes,arrows}
-\usepackage{titlesec}
-\newcommand{\sectionbreak}{\clearpage}
-\usepackage{geometry}
-\geometry{
-    a4paper,
-    top=2.54cm,
-    bottom=2.54cm,
-    left=3.17cm,
-    right=3.17cm,
-}
-\usepackage[nottoc,numbib]{tocbibind}
-\usepackage{setspace}
-\usepackage{tabu}
-\usepackage{tabularx}
-\onehalfspacing
-
-\titleformat*{\section}{\fontsize{16}{20}\bfseries}
-\titleformat*{\subsection}{\fontsize{14}{20}\bfseries}
-\titleformat*{\subsubsection}{\fontsize{12}{20}\bfseries}
-
-\newcommand\BibTeX{B{\sc ib}\TeX}
-
-% Global Style file\else
-\usepackage{thesis}
+% Global Style file
+\include{thesis.preamble}
 
 \thesisfinalcopy % Uncomment this line for the final submission
 \enablelogo % Comment this if you dont want a school logo
@@ -129,7 +94,8 @@ Subsections are usually go to second or third levels in depth. This is heading 2
 This is heading 3 section.
 \subsubsection{More sections}
 If there are more sections, it is not suggested that more numbering levels are used. We can use the following way in give the fourth level section.
-
+\subsection{\LaTeX~Functionality Demo}
+\paragraph{Math Equation}
 \begin{equation}
     \frac{1}{\displaystyle 1+
     \frac{1}{\displaystyle 2+
@@ -137,8 +103,9 @@ If there are more sections, it is not suggested that more numbering levels are u
     \frac{1}{1+\frac{1}{2+\frac{1}{3+x}}}
 \end{equation}
 
+
 \section{Fonts and Format and Binding}
-The font is Times New Roman. The font size for text is 12 pt. The font size is 16 pt for heading 1 and 14 pt for heading 2. The main text must be justify-aligned. The left, right margin is 2 cm around and the top, bottom margin is 2.5 cm around. The students should prepare two hard copies, one is sent to the supervisor, and anther is sent to the FYP coordinator. Besides this, each student should also send a soft copy to supervisor.\par
+The font is Times New Roman. The font size for text is 12 pt. The font size is 16 pt for heading 1 and 14 pt for heading 2. The main text must be justify-aligned. The left, right margin is 2 cm around and the top, bottom margin is 2.5 cm around. The students should prepare two hard copies, one is sent to the supervisor, and anther is sent to the FYP coordinator. Besides this, each student should also send a soft copy to supervisor.\cite{Gusfield:97}\par
 
 \section{Reference, Citation and Conclusion}
 Each thesis must offer the references materials in the end. For all the references, they are supposed to be cited somewhere in the thesis.\\
