@@ -1,0 +1,155 @@
+\documentclass[12pt]{article}
+
+% Included Packages
+\usepackage{times}
+\usepackage{titling}
+\usepackage{bookmark}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{float}
+\usepackage{caption}
+\captionsetup{font=footnotesize}
+\usepackage{amsmath}
+\usepackage[pdftex]{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    top=2.54cm,
+    bottom=2.54cm,
+    left=3.17cm,
+    right=3.17cm,
+}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{setspace}
+\usepackage{tabu}
+\usepackage{tabularx}
+\onehalfspacing
+
+\titleformat*{\section}{\fontsize{16}{20}\bfseries}
+\titleformat*{\subsection}{\fontsize{14}{20}\bfseries}
+\titleformat*{\subsubsection}{\fontsize{12}{20}\bfseries}
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+% Global Style file\else
+\usepackage{thesis}
+
+\thesisfinalcopy % Uncomment this line for the final submission
+\enablelogo % Comment this if you dont want a school logo
+
+% Your FYP project name
+\title{UIC Final Year Project I Thesis \LaTeX{} Template}
+% Your Name (Last Name First Name, English Name)
+\author{Zhang San, John}
+% Your Student ID
+\newcommand\studentid{16300*****}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\newpage
+\clearpage\pagenumbering{Roman}
+\setcounter{page}{2}
+\input{cover/declaration.tex}
+\newpage
+
+\begin{acknowledgement}
+    I would like to express my great gratitude towards my supervisor, Prof. LI Si who had given me invaluable advice to this project.
+\end{acknowledgement}
+
+\clearpage\pagenumbering{Roman}
+\newpage
+\clearpage\pagenumbering{arabic}
+\setcounter{page}{1} % Reset page numbering
+\maketitle
+\thispagestyle{empty}
+\newpage
+\begin{abstract}
+    \addcontentsline{toc}{section}{Abstraction}
+    The abstract part should give the abstraction of this paper, including the goals, motivation of this thesis. It is required that the number of words in the abstract should be between 150 words to 250 words.
+\end{abstract}
+\newpage
+\tableofcontents{}
+\newpage
+\section{Front pages}
+The front pages include the following pages that support this thesis. 
+\begin{itemize}
+    \item Title page: This is the first page of this thesis.
+    \item Declaration page: This page declares the original and independent work by the author. See the second page of this template.
+    \item Acceptance page: This page is to be signed by the Project Supervisor and the Observer if they find the Project Report acceptable. 
+    \item Acknowledgement page: This page should include the contributions made from supervisor(s), appreciation extended to supervisor(s), and parties who should receive recognition for their part in the project. 
+    \item Table of contents: This page includes the major headings and titles of all the tables and figures should be listed. 
+    \item Abstract page: An abstract should contain not more than 250 words on a separate page summarizing the essentials of the research work including the objectives, introduction, methodology, results, discussions and conclusions. 
+\end{itemize}
+
+\section{Main Text}
+This section introduces the main text part. The main text is usually separated into several subsections. Chapter sections (Like Section 1, Section 2 and so on) should start at a new page.
+\subsection{Flowchart}
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, 
+    text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, 
+    text width=5em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm,
+    minimum height=2em]
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}[node distance = 2cm, auto]
+        % Place nodes
+        \node [block] (init) {This};
+        \node [block, below of=init] (identify) {IS};
+        \node [block, below of=identify] (evaluate) {A};
+        \node [block, left of=evaluate, node distance=3cm] (update) {placeholder};
+        \node [decision, below of=evaluate] (decide) {flowchart};
+        \node [block, below of=decide, node distance=3cm] (stop) {sample};
+        % Draw edges
+        \path [line] (init) -- (identify);
+        \path [line] (identify) -- (evaluate);
+        \path [line] (evaluate) -- (decide);
+        \path [line] (decide) -| node [near start] {?} (update);
+        \path [line] (update) |- (identify);
+        \path [line] (decide) -- node {!}(stop);
+    \end{tikzpicture}
+    \caption{A Flowchart sample}
+    \label{flowchart_sample}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.2]{assets/uic-landscape.png}
+    \caption{External Picture Example: Landscape of BNU-HKBU UIC}
+    \label{uic_landscape_picture}
+\end{figure}
+\subsection{Subsections}
+Subsections are usually go to second or third levels in depth. This is heading 2 section.
+\subsubsection{Heading 3 section}
+This is heading 3 section.
+\subsubsection{More sections}
+If there are more sections, it is not suggested that more numbering levels are used. We can use the following way in give the fourth level section.
+
+\begin{equation}
+    \frac{1}{\displaystyle 1+
+    \frac{1}{\displaystyle 2+
+    \frac{1}{\displaystyle 3+x}}} +
+    \frac{1}{1+\frac{1}{2+\frac{1}{3+x}}}
+\end{equation}
+
+\section{Fonts and Format and Binding}
+The font is Times New Roman. The font size for text is 12 pt. The font size is 16 pt for heading 1 and 14 pt for heading 2. The main text must be justify-aligned. The left, right margin is 2 cm around and the top, bottom margin is 2.5 cm around. The students should prepare two hard copies, one is sent to the supervisor, and anther is sent to the FYP coordinator. Besides this, each student should also send a soft copy to supervisor.\par
+
+\section{Reference, Citation and Conclusion}
+Each thesis must offer the references materials in the end. For all the references, they are supposed to be cited somewhere in the thesis.\\
+The work in the thesis should be summarized and put in the conclusion part.\cite{APA:83}
+
+\bibliography{fypref}
+\bibliographystyle{ieeetr}
+
+\section*{Appendices (optional)}
+\addcontentsline{toc}{section}{Appendices}
+If there is anything that is offered to support the thesis but is not appropriate to appear in main text, it can be put there.
+
+
+\end{document}
