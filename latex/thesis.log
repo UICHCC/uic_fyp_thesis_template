@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.27)  23 JUN 2019 00:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.27)  23 JUN 2019 11:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -775,28 +775,28 @@ l.35 \newpage
  [3
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 46.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 47.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
  [4
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
-<assets/uic-landscape.png, id=76, 1069.9975pt x 702.625pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
+<assets/uic-landscape.png, id=78, 1069.9975pt x 702.625pt>
 File: assets/uic-landscape.png Graphic file (type png)
 <use assets/uic-landscape.png>
-Package pdftex.def Info: assets/uic-landscape.png  used on input line 87.
+Package pdftex.def Info: assets/uic-landscape.png  used on input line 88.
 (pdftex.def)             Requested size: 213.99571pt x 140.5225pt.
  [5
 
  </Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/assets/uic-landscape.png>]
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 97.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 98.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.79996> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 98.
  [6] [7
 
 ] (/Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/thesis.bbl [8
@@ -806,31 +806,31 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.79996> not available
 ] [10
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
  (/Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 122.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 125.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 22278 strings out of 492649
- 432301 string characters out of 6129622
+ 22281 strings out of 492649
+ 432331 string characters out of 6129622
  540989 words of memory out of 5000000
  25698 multiletter control sequences out of 15000+600000
  30057 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,9n,77p,1094b,745s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/thesis.pdf (14 pages, 1863185 bytes).
+Output written on /Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/thesis.pdf (14 pages, 1863238 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
+ 197 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)
 
