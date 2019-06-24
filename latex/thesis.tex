@@ -1,7 +1,7 @@
 \documentclass[12pt]{article}
 
 % Global Style file
-\include{thesis.preamble}
+\input{thesis.preamble}
 
 \thesisfinalcopy % Uncomment this line for the final submission
 \enablelogo % Comment this if you dont want a school logo
@@ -35,7 +35,7 @@
 \newpage
 \phantomsection
 \begin{abstract}
-    \addcontentsline{toc}{section}{Abstraction}
+    \addcontentsline{toc}{section}{Abstract}
     The abstract part should give the abstraction of this paper, including the goals, motivation of this thesis. It is required that the number of words in the abstract should be between 150 words to 250 words.
 \end{abstract}
 \newpage
@@ -52,7 +52,7 @@ The front pages include the following pages that support this thesis.
     \item Abstract page: An abstract should contain not more than 250 words on a separate page summarizing the essentials of the research work including the objectives, introduction, methodology, results, discussions and conclusions. 
 \end{itemize}
 
-\section{Main Text}
+\section{Main  Text}
 This section introduces the main text part. The main text is usually separated into several subsections. Chapter sections (Like Section 1, Section 2 and so on) should start at a new page.
 \subsection{Flowchart}
 \tikzstyle{decision} = [diamond, draw, fill=blue!20, 
@@ -66,9 +66,9 @@ This section introduces the main text part. The main text is usually separated i
     \centering
     \begin{tikzpicture}[node distance = 2cm, auto]
         % Place nodes
-        \node [block] (init) {This};
-        \node [block, below of=init] (identify) {IS};
-        \node [block, below of=identify] (evaluate) {A};
+        \node [block] (init) {this};
+        \node [block, below of=init] (identify) {is};
+        \node [block, below of=identify] (evaluate) {a};
         \node [block, left of=evaluate, node distance=3cm] (update) {placeholder};
         \node [decision, below of=evaluate] (decide) {flowchart};
         \node [block, below of=decide, node distance=3cm] (stop) {sample};
