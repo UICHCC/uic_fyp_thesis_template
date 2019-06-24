@@ -7,6 +7,7 @@
 \contentsline {subsubsection}{\numberline {2.2.2}More sections}{6}{subsubsection.2.2.2}
 \contentsline {subsection}{\numberline {2.3}\LaTeX \nobreakspace {}Functionality Demo}{6}{subsection.2.3}
 \contentsline {paragraph}{Math Equation}{6}{subsection.2.3}
+\contentsline {paragraph}{Code}{6}{equation.2.1}
 \contentsline {section}{\numberline {3}Fonts and Format and Binding}{7}{section.3}
 \contentsline {section}{\numberline {4}Reference, Citation and Conclusion}{8}{section.4}
 \contentsline {section}{\numberline {5}References}{9}{section.5}
