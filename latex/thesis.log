@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.27)  24 JUN 2019 14:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.27)  24 JUN 2019 17:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -569,7 +569,29 @@ Package datetime Info: No datetime.cfg file found, using default settings on inp
 LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks42
 \dt@b=\toks43
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/breakcites/breakcites.sty) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/breakcites/breakcites.sty) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count170
+\lst@gtempboxa=\box49
+\lst@token=\toks44
+\lst@length=\count171
+\lst@currlwidth=\dimen258
+\lst@column=\count172
+\lst@pos=\count173
+\lst@lostspace=\dimen259
+\lst@width=\dimen260
+\lst@newlines=\count174
+\lst@lineno=\count175
+\lst@maxwidth=\dimen261
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count176
+\lst@skipnumbers=\count177
+\lst@framebox=\box50
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
  (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
@@ -591,39 +613,32 @@ File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
  (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
-\pgfnodepartlowerbox=\box49
-\pgfnodeparttwobox=\box50
-\pgfnodepartthreebox=\box51
-\pgfnodepartfourbox=\box52
-\pgfnodeparttwentybox=\box53
-\pgfnodepartnineteenbox=\box54
-\pgfnodeparteighteenbox=\box55
-\pgfnodepartseventeenbox=\box56
-\pgfnodepartsixteenbox=\box57
-\pgfnodepartfifteenbox=\box58
-\pgfnodepartfourteenbox=\box59
-\pgfnodepartthirteenbox=\box60
-\pgfnodeparttwelvebox=\box61
-\pgfnodepartelevenbox=\box62
-\pgfnodeparttenbox=\box63
-\pgfnodepartninebox=\box64
-\pgfnodeparteightbox=\box65
-\pgfnodepartsevenbox=\box66
-\pgfnodepartsixbox=\box67
-\pgfnodepartfivebox=\box68
+\pgfnodepartlowerbox=\box51
+\pgfnodeparttwobox=\box52
+\pgfnodepartthreebox=\box53
+\pgfnodepartfourbox=\box54
+\pgfnodeparttwentybox=\box55
+\pgfnodepartnineteenbox=\box56
+\pgfnodeparteighteenbox=\box57
+\pgfnodepartseventeenbox=\box58
+\pgfnodepartsixteenbox=\box59
+\pgfnodepartfifteenbox=\box60
+\pgfnodepartfourteenbox=\box61
+\pgfnodepartthirteenbox=\box62
+\pgfnodeparttwelvebox=\box63
+\pgfnodepartelevenbox=\box64
+\pgfnodeparttenbox=\box65
+\pgfnodepartninebox=\box66
+\pgfnodeparteightbox=\box67
+\pgfnodepartsevenbox=\box68
+\pgfnodepartsixbox=\box69
+\pgfnodepartfivebox=\box70
 ))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
  (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen258
-)) (/Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/thesis.sty
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 118.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
-) (/Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/boxit.sty)) (/Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/thesis.aux)
+\arrowsize=\dimen262
+)) (/Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/thesis.sty) (/Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/boxit.sty)) (/Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -640,33 +655,38 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
-\AtBeginShipoutBox=\box69
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 16.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+\AtBeginShipoutBox=\box71
 Package hyperref Info: Link coloring OFF on input line 16.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count170
+\c@section@level=\count178
 )
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
 LaTeX Info: Redefining \nameref on input line 16.
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count171
-\scratchdimen=\dimen259
-\scratchbox=\box70
-\nofMPsegments=\count172
-\nofMParguments=\count173
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count174
-\MPscratchDim=\dimen260
-\MPnumerator=\count175
-\makeMPintoPDFobject=\count176
-\everyMPtoPDFconversion=\toks45
+\scratchcounter=\count179
+\scratchdimen=\dimen263
+\scratchbox=\box72
+\nofMPsegments=\count180
+\nofMParguments=\count181
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count182
+\MPscratchDim=\dimen264
+\MPnumerator=\count183
+\makeMPintoPDFobject=\count184
+\everyMPtoPDFconversion=\toks46
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -716,49 +736,44 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
-<assets/uic-logo-encn.pdf, id=7, 867.80902pt x 224.77676pt>
-File: assets/uic-logo-encn.pdf Graphic file (type pdf)
-<use assets/uic-logo-encn.pdf>
-Package pdftex.def Info: assets/uic-logo-encn.pdf  used on input line 18.
-(pdftex.def)             Requested size: 260.34471pt x 67.43353pt.
+\c@lstlisting=\count185
+ (/Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/confidential.tex)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
-LaTeX Font Info:    Calculating math sizes for size <16> on input line 18.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+LaTeX Font Info:    Calculating math sizes for size <16> on input line 19.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 18.
+(Font)              size <17.28> substituted on input line 19.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
-(Font)              size <17.28> substituted on input line 18.
+(Font)              size <17.28> substituted on input line 19.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 18.
+(Font)              size <17.28> substituted on input line 19.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 18.
+(Font)              size <17.28> substituted on input line 19.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11.19995> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
 [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/assets/uic-logo-encn.pdf>] (/Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/cover/declaration.tex [2
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/cover/declaration.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+ [2
 
 ]) [3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
- [4]
-File: assets/uic-logo-encn.pdf Graphic file (type pdf)
-<use assets/uic-logo-encn.pdf>
-Package pdftex.def Info: assets/uic-logo-encn.pdf  used on input line 34.
-(pdftex.def)             Requested size: 260.34471pt x 67.43353pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+ [4]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 \newpage
+l.36 \newpage
               [1
 
 
@@ -769,28 +784,28 @@ l.35 \newpage
  [3
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 47.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 48.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
  [4
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
-<assets/uic-landscape.png, id=78, 1069.9975pt x 702.625pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+<assets/uic-landscape.png, id=67, 1069.9975pt x 702.625pt>
 File: assets/uic-landscape.png Graphic file (type png)
 <use assets/uic-landscape.png>
-Package pdftex.def Info: assets/uic-landscape.png  used on input line 88.
+Package pdftex.def Info: assets/uic-landscape.png  used on input line 89.
 (pdftex.def)             Requested size: 213.99571pt x 140.5225pt.
  [5
 
  </Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/assets/uic-landscape.png>]
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 98.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 99.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.79996> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 98.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
  [6] [7
 
 ] (/Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/thesis.bbl [8
@@ -800,31 +815,31 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.79996> not available
 ] [10
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
  (/Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 125.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 126.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 22282 strings out of 492649
- 432340 string characters out of 6129622
- 539983 words of memory out of 5000000
- 25698 multiletter control sequences out of 15000+600000
+ 23594 strings out of 492649
+ 451043 string characters out of 6129622
+ 561259 words of memory out of 5000000
+ 26998 multiletter control sequences out of 15000+600000
  30057 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,9n,77p,1092b,745s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/thesis.pdf (14 pages, 1863242 bytes).
+Output written on /Users/ecwu/Documents/Code/uic_fyp_thesis_template/latex/thesis.pdf (14 pages, 1467053 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 186 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
