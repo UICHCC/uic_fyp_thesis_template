@@ -1,7 +1,6 @@
 % Included Packages
 \usepackage{times}
 \usepackage{titling}
-\usepackage{bookmark}
 \usepackage{url}
 \usepackage{float}
 \usepackage{caption}
@@ -9,7 +8,6 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{tikz}
 \usepackage{titlesec}
-\usepackage{geometry}
 \usepackage[nottoc,numbib]{tocbibind}
 \usepackage{setspace}
 \usepackage{tabu}
@@ -26,13 +24,6 @@
 }
 \captionsetup{font=footnotesize}
 \onehalfspacing
-\geometry{
-    a4paper,
-    top=2.54cm,
-    bottom=2.54cm,
-    left=3.17cm,
-    right=3.17cm,
-}
 \newcommand{\sectionbreak}{\clearpage}
 \usetikzlibrary{shapes,arrows}
 
@@ -75,3 +66,14 @@
 \input{boxit.sty}
 
 \usepackage{hyperref}
+\usepackage{footnotebackref}
+
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    top=2.54cm,
+    bottom=2.54cm,
+    left=3.17cm,
+    right=3.17cm,
+}
+\usepackage{bookmark}
