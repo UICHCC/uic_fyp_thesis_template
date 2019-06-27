@@ -1,35 +1,48 @@
-% Included Packages
-% \usepackage{times} % Set global font to 
-\usepackage{newtxtext}
-\usepackage{titling}
-\usepackage{url}
-\usepackage{float}
-\usepackage{caption}
-\usepackage{amsmath}
-\usepackage[pdftex]{graphicx}
-\usepackage{tikz}
-\usepackage{titlesec}
-\usepackage[nottoc,numbib]{tocbibind}
-\usepackage{setspace}
-\usepackage{tabu}
-\usepackage{tabularx}
-\usepackage{datetime}
-\usepackage{breakcites}
-\usepackage{listings}
-\usepackage{color}
-\usepackage{algorithm}
-\usepackage{algpseudocode}
+% --------------------
+% UIC CST FYP Thesis Template
+% Version: 1.0b
+% Author: ECWU (Jack Wu)
+% --------------------
 
+% Included Packages
+\usepackage{newtxtext} % Set global font to Times New Roman
+\usepackage{lmodern} % Allowing font sizes at arbitrary sizes
+\usepackage{titling} % Make title, author, date permanently available
+\usepackage{url} % For Email, hypertext links or paths
+\usepackage{float} % Provides the 'H' modifier for obsolete position option
+\usepackage{caption} % For config the caption font size
+\usepackage{amsmath} % For Math, Equation related stuff
+\usepackage[pdftex]{graphicx} % For includes graphic
+\usepackage{tikz} % Create PostScript Graphic
+\usepackage{titlesec} % Define title style (Size)
+\usepackage[nottoc,numbib]{tocbibind} % Include section into TOC
+\usepackage{setspace} % Control line spacing
+\usepackage{tabu} % For Table
+\usepackage{tabularx} % Enable adjustable table columns
+\usepackage{datetime} % Change format of \today
+\usepackage{breakcites} % Ensure that multiple citations may break at line end
+\usepackage{listings} % Source code listing
+\usepackage{color} % Color definition
+\usepackage{algorithm} % For pseudo code listing
+\usepackage{algpseudocode} % Style for algorithm package
+
+% Datetime format
 \newdateformat{monthyeardate}{
     \monthname[\THEMONTH], \THEYEAR
 }
+
+% Setup caption size
 \captionsetup{font=footnotesize}
+
+% Set spacing to 1.5
 \onehalfspacing
+
+% New page for every section
 \newcommand{\sectionbreak}{\clearpage}
-\usetikzlibrary{shapes,arrows}
 
 \input{thesis.sty}
 
+% Defined color for code highlight
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
@@ -64,12 +77,10 @@
 \setlength{\parskip}{\medskipamount}  % a little space before a \par
 \setlength{\parindent}{0pt}	      % don't indent first lines of paragraphs
 
-\input{boxit.sty}
+\usepackage{hyperref} % Support for hypertext in PDF
+\usepackage{footnotebackref} % Back-ref­er­ences from foot­notes
 
-\usepackage{hyperref}
-\usepackage{footnotebackref}
-
-\usepackage{geometry}
+\usepackage{geometry} % Config for page size and margin
 \geometry{
     a4paper,
     top=2.54cm,
@@ -77,4 +88,4 @@
     left=3.17cm,
     right=3.17cm,
 }
-\usepackage{bookmark}
+\usepackage{bookmark} % For outline

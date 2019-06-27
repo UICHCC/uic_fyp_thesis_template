@@ -1,3 +1,17 @@
+% --------------------
+% UIC CST FYP Thesis Template
+% Version: 1.0b
+% Author: ECWU (Jack Wu)
+% This is the final year project thesis LaTeX template for BNU-HKBU UIC Computer
+% Science and Technology. When the template was created, the author referred to
+% the LaTeX template of NAACL 2019 
+% (https://naacl2019.org/downloads/naaclhlt2019-latex.zip) 
+% and thesis template of the University of Nottingham 
+% (https://github.com/imyueli/NottinghamThesisTemplate ).
+% Besides, in the making of this template, the author also received the help of
+% Dr. Goliath Li and Dr. Judy Feng.
+% --------------------
+
 \documentclass[12pt]{article}
 
 % Global Style file
@@ -19,6 +33,10 @@
   pdftitle    = {UIC Final Year Project I Thesis LaTeX Template} % Change to your FYP project name
 } 
 % End of document metadata
+
+% tizk package
+\usetikzlibrary{shapes,arrows}
+% End of tizk package
 
 \begin{document}
 \input{confidential.tex}
@@ -129,7 +147,18 @@ If there are more sections, it is not suggested that more numbering levels are u
     \EndProcedure
     \end{algorithmic}
 \end{algorithm}
-
+\paragraph{Url \& href} UICCST Website: \url{https://www.uiccst.com}; \href{https://www.uic.edu.hk}{UIC Homepage}
+\paragraph{Table \& Tabluar}\mbox{}
+\begin{table}[H]
+    \begin{tabu} to \hsize {|X|X|X|X[3,l]|}
+        \hline
+        Model & Year & SoTA? & Author \\ \hline
+        BERT & 2018 & Yes & Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova \\ \hline
+        MT-DNN & 2019 & Yes & Xiaodong Liu, Pengcheng He, Weizhu Chen, Jianfeng Gao \\ \hline
+        XLNet & 2019 & Yes & Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, Quoc V. Le \\
+        \hline
+    \end{tabu}
+\end{table}
 
 \section{Fonts and Format and Binding}
 The font is Times New Roman. The font size for text is 12 pt. The font size is 16 pt for heading 1 and 14 pt for heading 2. The main text must be justify-aligned. The left, right margin is 2 cm around and the top, bottom margin is 2.5 cm around. The students should prepare two hard copies, one is sent to the supervisor, and anther is sent to the FYP coordinator. Besides this, each student should also send a soft copy to supervisor.\cite{Gusfield:97}\par
@@ -147,7 +176,7 @@ The work in the thesis should be summarized and put in the conclusion part.\cite
 \addcontentsline{toc}{section}{Appendices}
 If there is anything that is offered to support the thesis but is not appropriate to appear in main text, it can be put there.
 
-\paragraph{Code}\mbox{}\\
+\paragraph{Code}\mbox{}
 \lstinputlisting[language=Python]{assets/code/test.py}
 
 
